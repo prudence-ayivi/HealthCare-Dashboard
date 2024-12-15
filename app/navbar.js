@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/Link";
+// import Link from "next/Link";
 import { GoHome } from "react-icons/go";
 import { MdOutlineGroup, MdChatBubbleOutline, MdMoreVert } from "react-icons/md";
 import { CiCalendar } from "react-icons/ci";
@@ -26,23 +26,23 @@ const NavBar = () => {
         <div className="flex items-center justify-around gap-4">
         <div className="flex flex-row items-center justify-center gap-1 px-3 py-2 hover:bg-[#01F0D0] font-bold rounded-full"> 
         <GoHome className="stroke-1 text-[20px]"/> 
-        <Link href={'#'}> Overview </Link>
+        Overview 
         </div>
         <div className="flex flex-row items-center justify-center gap-1 px-3 py-2 bg-[#01F0D0] font-bold rounded-full"> 
         <MdOutlineGroup className="text-[20px]"/> 
-        <Link href={'#'}> Patients </Link>
+        Patients 
         </div>
         <div className="flex flex-row items-center justify-center gap-1 px-3 py-2 hover:bg-[#01F0D0] font-bold rounded-full"> 
         <CiCalendar className="stroke-1 text-[20px]"/> 
-        <Link href={'#'}> Schedule </Link>
+        Schedule 
         </div>
         <div className="flex flex-row items-center justify-center gap-1 px-3 py-2 hover:bg-[#01F0D0] font-bold rounded-full"> 
         <MdChatBubbleOutline className="text-[20px]"/> 
-        <Link href={'#'}> Message </Link>
+         Message 
         </div>
         <div className="flex flex-row items-center justify-center gap-1 px-3 py-2 hover:bg-[#01F0D0] font-bold rounded-full"> 
         <TfiCreditCard className="text-[20px]"/> 
-        <Link href={'#'}> Transaction </Link>
+        Transaction 
         </div>
         </div>
 
