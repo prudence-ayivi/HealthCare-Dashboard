@@ -6,7 +6,7 @@ import { MdExpandMore } from "react-icons/md";
 
 const Diagnosis = ({diagnosis}) => {
   return (
-    <div className="absolute top-[108px] left-[350px] w-[590px] bg-white rounded-2xl opacity-100">
+    <div className="bg-white rounded-2xl">
     <h3 className="m-3 text-[24px] leading-[33px] font-extrabold text-left">Diagnosis History</h3>
 
     <div className="flex flex-col w-full mx-3 gap-5"> 
@@ -57,8 +57,8 @@ const Diagnosis = ({diagnosis}) => {
 
     </div>
 
-    <div className="flex flex-row items-center gap-4 mr-6 mb-4"> 
-    <div className="flex flex-col items-left gap-4 p-3 w-[200px] bg-[#E0F3FA] rounded-[12px]"> 
+    <div className="w-full flex flex-row items-center gap-4 pr-6 mr-12 mb-4"> 
+    <div className="flex flex-col items-left gap-4 p-3 w-[220px] bg-[#E0F3FA] rounded-[12px]"> 
     <Image src={"/respiratory rate.png"} alt="respiratory rate" width={96} height={96} />
     <div>
       <p className="text-[16px]">Respiratory Rate</p>
@@ -66,7 +66,7 @@ const Diagnosis = ({diagnosis}) => {
     </div>
     <p className="text-[14px] h-[19px]">{diagnosis[0].respiratory_rate.levels}</p>
     </div>
-    <div className="flex flex-col items-left gap-4 p-3 w-[200px] bg-[#FFE6E9] rounded-[12px]"> 
+    <div className="flex flex-col items-left gap-4 p-3 w-[220px] bg-[#FFE6E9] rounded-[12px]"> 
     <Image src={"/temperature.png"} alt="temperature" width={96} height={96} />
     <div>
       <p className="text-[16px]">Temperature</p>
@@ -74,7 +74,7 @@ const Diagnosis = ({diagnosis}) => {
     </div>
     <p className="text-[14px] h-[19px]">{diagnosis[0].respiratory_rate.levels}</p>
     </div>
-    <div className="flex flex-col items-left gap-4 p-3 w-[200px] bg-[#FFE6F1] rounded-[12px]"> 
+    <div className="flex flex-col items-left gap-4 p-3 w-[220px] bg-[#FFE6F1] rounded-[12px]"> 
     <Image src={"/HeartBPM.png"} alt="HeartBPM" width={96} height={96} />
     <div>
       <p className="text-[16px]">Heart Rate</p>

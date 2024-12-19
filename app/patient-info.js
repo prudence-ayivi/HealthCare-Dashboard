@@ -6,9 +6,9 @@ import { MdOutlineLocalPhone, MdOutlineVerifiedUser } from "react-icons/md";
 
 const PatientInfo = ({ patient }) => {
   return (
-    <div className="absolute top-[108px] left-[960px] w-[300px] py-2 px-8 bg-white rounded-2xl opacity-100">
+    <div className="py-2 px-8 bg-white rounded-2xl">
     <div className="flex flex-col items-center justify-center">
-    <Image src={patient.profile_picture} alt={patient.name} width={200} height={200} className="mt-6"/>
+    <Image src={patient.profile_picture} alt={patient.name} width={155} height={155} className="mt-2" />
     <h3 className="font-bold my-2 text-center text-[24px]">{patient.name}</h3>
     </div>
 

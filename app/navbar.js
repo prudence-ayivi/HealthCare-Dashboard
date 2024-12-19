@@ -18,7 +18,7 @@ const navigation = [
 
 const NavBar = () => {
   return (
-      <div className="flex flex-row items-center justify-around fixed top-4 left-4 w-full h-[72px] bg-white rounded-full z-10 opacity-100">
+      <div className="flex flex-row items-center justify-around fixed top-4 w-full h-[72px] bg-white rounded-full z-10 mx-2">
         <div className="text-center">
           <Image src={"/TestLogo.svg"} alt="TestLogo" width={211} height={48} />
         </div>

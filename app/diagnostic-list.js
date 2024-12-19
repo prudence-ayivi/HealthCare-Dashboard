@@ -1,11 +1,11 @@
 import React from 'react'
 
 const DiagnosticList = ({diagnostics}) => {
-
+//absolute top-[740px] left-[350px] w-[590px] 
   return (
-    <div className="absolute top-[740px] left-[350px] w-[590px] bg-white rounded-2xl opacity-100">
+    <div className="bg-white rounded-2xl">
     <h3 className="m-4 text-[24px] leading-[33px] font-extrabold text-left">Diagnostic List</h3>
-    <div className="mt-4 mx-4 h-[230px] overflow-y-scroll"> 
+    <div className="mt-4 mx-2 h-[230px] overflow-y-scroll"> 
     <table> 
     <thead>
     <tr className="rounded-[24px] font-bold bg-[#F6F7F8]">

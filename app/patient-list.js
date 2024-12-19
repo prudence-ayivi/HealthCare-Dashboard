@@ -4,7 +4,7 @@ import { MdMoreHoriz } from "react-icons/md";
 
 const PatientList = ({patients, patientSelect}) => {
   return (
-    <div className="absolute top-[108px] left-4 h-[925px] bg-white rounded-2xl opacity-100 overflow-y-scroll">
+    <div className="bg-white rounded-2xl">
       <div className="flex items-center justify-between m-4">
         <h3 className="text-[24px] leading-[33px] font-extrabold text-font text-left">
           Patients
@@ -12,7 +12,7 @@ const PatientList = ({patients, patientSelect}) => {
         <IoIosSearch className="text-[20px]"/>
       </div>
 
-      <div className="mx-4">
+      <div className="mx-2 h-[845px] overflow-y-scroll">
 
         <div className="flex flex-col items-center justify-between gap-1 my-8">        
         {patients.map((patient, index) => (

@@ -30,11 +30,11 @@ const Dashboard = () => {
   }
 
   return (
-    <main className="flex flex-row items-center justify-between min-h-screen gap-8 text-font">
-    <div>
+    <main className="w-full mx-2 mt-4 flex flex-row items-center justify-center gap-6 absolute top-[85px] text-font opacity-100 dashboard">
+    <div className="w-[23%]">
     <PatientList patients={patientData} patientSelect={setSelectedPatient}/> 
     </div>
-    <div> 
+    <div className="w-[46%]"> 
     {selectedPatient && (
       <>
     <Diagnosis diagnosis={selectedPatient.diagnosis_history}/>
@@ -42,7 +42,7 @@ const Dashboard = () => {
       </>
       )}
     </div>
-    <div> 
+    <div className="w-[23%]"> 
     {selectedPatient && (
       <>
     <PatientInfo patient={selectedPatient} />
@@ -50,7 +50,6 @@ const Dashboard = () => {
       </>
       )}   
     </div>
-
     </main>
   )
 }
