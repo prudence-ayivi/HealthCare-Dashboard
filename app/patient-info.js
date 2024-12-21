@@ -12,7 +12,7 @@ const PatientInfo = ({ patient }) => {
     <h3 className="font-bold my-2 text-center text-[24px]">{patient.name}</h3>
     </div>
 
-    <div className="flex flex-col items-left justify-left my-2 gap-4">
+    <div className="flex flex-col items-left justify-left my-4 gap-4">
 
     <div className="flex flex-row items-center justify-left gap-4"> 
     <CiCalendar className="stroke-1 text-[20px]"/>     

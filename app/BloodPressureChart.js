@@ -82,7 +82,7 @@ const BloodPressureChart = ({ data }) => {
   }, [data]);
 
   return (
-    <div className="w-[350px] h-[210px]">
+    <div className="w-[360px] h-[210px] 2xl:w-[450px]">
       <canvas ref={chartRef}></canvas>
     </div>
   );

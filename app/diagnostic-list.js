@@ -4,7 +4,7 @@ const DiagnosticList = ({diagnostics}) => {
 //absolute top-[740px] left-[350px] w-[590px] 
   return (
     <div className="bg-white rounded-2xl">
-    <h3 className="m-4 text-[24px] leading-[33px] font-extrabold text-left">Diagnostic List</h3>
+    <h3 className="py-2 m-4 text-[24px] leading-[33px] font-extrabold text-left">Diagnostic List</h3>
     <div className="mt-4 mx-2 h-[230px] overflow-y-scroll"> 
     <table> 
     <thead>

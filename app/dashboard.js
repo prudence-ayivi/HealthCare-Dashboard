@@ -34,7 +34,7 @@ const Dashboard = () => {
     <div className="w-[23%]">
     <PatientList patients={patientData} patientSelect={setSelectedPatient}/> 
     </div>
-    <div className="w-[46%]"> 
+    <div className="w-[48%] 2xl:w-[41%]"> 
     {selectedPatient && (
       <>
     <Diagnosis diagnosis={selectedPatient.diagnosis_history}/>

@@ -6,7 +6,7 @@ import { LuDownload } from "react-icons/lu";
 const LabResults = ({results}) => {
   return (
     <div className="bg-white rounded-2xl">
-    <h3 className="m-4 text-[24px] leading-[33px] font-extrabold text-left">Lab Results</h3>
+    <h3 className="py-2 m-4 text-[24px] leading-[33px] font-extrabold text-left">Lab Results</h3>
     <div className="mx-2 h-[225px] overflow-y-scroll">
     <div className="flex flex-col gap-1">
     {results.map((result, index) => (
