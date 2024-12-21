@@ -1,11 +1,3 @@
-const username = process.env.API_USERNAME;
-const password = process.env.API_PASSWORD;
-
-// Encoding the username and password in base64 
-const auth = Buffer.from(`${username}:${password}`).toString('base64');
-
-// const auth = btoa(`${username}:${password}`);
-
 export const fetchPatientData = async () => {
   const username = process.env.API_USERNAME;
   const password = process.env.API_PASSWORD;
