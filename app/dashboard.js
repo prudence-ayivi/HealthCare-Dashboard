@@ -26,7 +26,7 @@ const Dashboard = () => {
   }, []);
 
   if (!patientData) {
-    return <div>Loading...</div>;
+    return <div className="absolute top-64">Loading...</div>;
   }
 
   return (
