@@ -16,7 +16,6 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchPatientData();
-      console.log("Fetched Patient Data:", data); 
       setPatientData(data); 
       setSelectedPatient(data[0]); 
 
